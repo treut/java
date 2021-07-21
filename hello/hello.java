@@ -1,5 +1,6 @@
 public class hello {
-   public static void main(String []args) {
-      System.out.println("Привет мир");
+   public static void main(String args[]) {
+      System.out.println("Привет мир!!");
    }
 }
+//for branch test
