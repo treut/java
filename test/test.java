@@ -1,5 +1,9 @@
-public class test{
+class test{
 	public static void main(String args[]){
-		System.out.println("HHHHHHHHHELELELfdf");
+		String a="1";
+		boolean b=true;
+		//System.out.println(Integer.parseInt(a));
+
+		if(!!b) System.out.println("xxxxxxxxx");
 	}
 }
