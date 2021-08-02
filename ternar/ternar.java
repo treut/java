@@ -1,3 +1,4 @@
+//пример с тернарным оператором
 class ternar{
 	public static void main(String args[]){
 		int strin=0;
