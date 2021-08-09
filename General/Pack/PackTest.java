@@ -20,7 +20,11 @@ public class PackTest{
 		curr[1]=new Bal("Bromza");
 		curr[2]=new Bal("Mronz");
 
-		for(int i=0; i<3; i++) curr[i].show();
+		for(int i=0; i<3; i++){
+			curr[i].show();
+		}
+		
+		//curr[0].show();
 		//curr[1].show();
 		//curr[2].show();
 	}
