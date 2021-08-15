@@ -14,9 +14,13 @@ class NewThread implements Runnable{
 	public void run(){
 		try{
 			System.out.println("Start flow");
+			//t.setPriority(11); //Exception! priority 1-10
+			t.setPriority(5);
+			System.out.println("Priority this flow: "+t.getPriority());
 			Thread.sleep(2000);
 		}
-		catch(InterruptedException e){
+		//catch(InterruptedException e){
+		catch(Exception e){
 			System.out.println("Flow stopped!");
 		}
 		System.out.println("End flow!");
@@ -34,7 +38,8 @@ public class DemoJoin{
 
 			t1.t.join();
 		}
-		catch(InterruptedException e){
+		//catch(InterruptedException e){
+		catch(Exception e){
 			System.out.println("Main flow stopped!");
 		}
 
