@@ -16,7 +16,8 @@ public class JavaSql{
 			ResultSet res=state.executeQuery("SELECT*FROM cards LIMIT 3");
 			
 			while(res.next()){
-				System.out.println(res.getString(3));
+				//System.out.println(res.getString(3));
+				System.out.println("Famila: "+res.getString("person")+"\nLogana: "+res.getString("trperson")+"\nCardas: "+res.getString("card")+"\n");
 			}
 
 			res.close();
