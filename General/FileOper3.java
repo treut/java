@@ -12,7 +12,7 @@ public class FileOper3{
 			while(true){
 				ton=fin.read();
 				if(ton==-1) break;
-				else System.out.print((char) ton);
+				System.out.print((char)ton);
 			}
 			System.out.println();
 		}
