@@ -4,7 +4,7 @@ public class Arrays {
         int[] numbs=new int[2];
         numbs[0]=33;
         numbs[1]=44;
-        
+
         for(int num:numbs){
             System.out.println(num);
         }
