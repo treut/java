@@ -15,10 +15,11 @@ public class Setters {
         hs.add("bon");
 //        hs.add("gon");
 
-        for(String name : hs){
-            System.out.println("Naaame: "+name);
-        }
+//        for(String name : hs){
+//            System.out.println("Naaame: "+name);
+//        }
+//        System.out.println(hs.contains("don"));
 
-        System.out.println(hs.contains("don"));
+        System.out.println(hs.toArray()[1]);
     }
 }
