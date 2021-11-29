@@ -3,9 +3,9 @@ import java.io.InputStreamReader;
 import java.net.URL;
 
 public class ReadURL{
-    String url;
+    private String url;
     public ReadURL(String url){
-        this.url=url;
+        this.url = url;
     }
     @Override
     public String toString(){
